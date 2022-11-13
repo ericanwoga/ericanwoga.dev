@@ -1,0 +1,31 @@
+.navbar {
+    background-color: var(--color-caramel);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    box-shadow: 0px 0px 2px 3px var(--color-choco);
+    padding: 1.2%;
+}
+
+.navbar a {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-choco);
+    margin-left: 5%;
+}
+
+.navbar a:hover {
+    color: var(--color-lightpink);
+    transition: 0.15s ease-in;
+}
+
+.navbar a:active {
+    /*background-color: rgba(255, 244, 244, 0.4);
+    border-radius: 10%;*/
+    color: var(--color-choco);
+}
+
+/*On mobile, the nav bar turns into an icon*/
+@media screen and (max-width: 600px) {
+}

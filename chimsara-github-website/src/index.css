@@ -13,6 +13,7 @@ html {
 
 body {
   background-image: url("./images/pink\ and\ cream\ stripes.png");
+  height: 100vh;
 }
 
 :root{
@@ -23,9 +24,9 @@ body {
   --color-lightpink: rgb(255, 244, 244);
   --color-pink: #FFCECE;
   --color-tan: rgb(240, 233, 224);
-  --color-brown: rgb(223, 200, 182);
+  --color-caramel: rgb(223, 200, 182);
+  --color-choco: rgb(167, 141, 133);
   --color-green: rgb(204, 213, 170);
-  --color-darkgray: rgb(100, 95, 95);
 
 
   /*Container sizes*/
