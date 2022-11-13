@@ -3,7 +3,7 @@ import './work.css'
 
 function Work() {
   return (
-    <div>Work</div>
+    <div></div>
   )
 }
 

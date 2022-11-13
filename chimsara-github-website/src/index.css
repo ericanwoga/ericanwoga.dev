@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Manjari:wght@100;400&family=Outfit:wght@100;200;300;400&family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Manjari:wght@100;400&family=Outfit:wght@100;200;300;400&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing:border-box;
   margin:0;
   padding: 0;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -24,13 +23,13 @@ body {
 
   /*Color pallete*/
   --color-white: #FFF;
-  --color-darkgray: rgb(75, 72, 88);
+  --color-darkgray: rgb(83, 91, 108);
   --color-green: #DEFEAB;
-  --color-blue: #ABF4FE;
+  --color-blue: #c0eff5;
   --color-lightpink: #FFF3F3;
   --color-pink: #FFCECE;
   --color-orange: #ffe1bb;
-  --color-darkpink: #FF6565;
+  --color-darkpink: #ff8888;
 
   /*Container sizes*/
   --container-width-large: 75%;
@@ -45,11 +44,6 @@ body {
   margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Crafty Girls', sans-serif;
-  font-size: 4rem;
-  margin-bottom: 0rem;
-}
 
 h2 {
   font-family: 'Quicksand', sans-serif;
@@ -81,7 +75,11 @@ section {
 
 /*Mobile*/
 @media screen and (max-width: 600px) {
-  h1 {
+  #home-title__hi {
+    font-size: 1rem;
+  }
+
+  #home-title__erica {
     font-size: 3rem;
   }
 
