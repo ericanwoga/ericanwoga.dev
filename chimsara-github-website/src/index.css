@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Manjari:wght@100;400&family=Outfit:wght@100;200;300;400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Outfit:wght@100;200;300;400&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing:border-box;
@@ -12,24 +12,20 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
-  background-color: var(--color-white);
-  color: var(--color-darkgray); 
+   
 }
 
 :root{
   /*Custom variables*/
 
   /*Color pallete*/
-  --color-white: #FFF;
-  --color-darkgray: rgb(83, 91, 108);
-  --color-green: #DEFEAB;
-  --color-blue: #c0eff5;
-  --color-lightpink: #FFF3F3;
+  --color-offwhite: rgb(254, 254, 253);
+  --color-lightpink: rgb(255, 244, 244);
   --color-pink: #FFCECE;
-  --color-orange: #ffe1bb;
-  --color-darkpink: #ff8888;
+  --color-tan: rgb(240, 233, 224);
+  --color-brown: rgb(223, 200, 182);
+  --color-green: rgb(204, 213, 170);
+  --color-darkgray: rgb(100, 95, 95);
 
   /*Container sizes*/
   --container-width-large: 75%;
@@ -39,58 +35,16 @@ body {
 
 
 /*------------------General Styles----------------*/
-.container{
-  width: var(--container-width-large);
-  margin: 0 auto;
-}
 
-
-h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.3rem;
-  font-weight: 500;
-}
-
-section {
-  margin-top: 8rem;
-}
-
-.btn {
-  color: var(--color-pink);
-  border-radius: 1rem;
-}
 
 /*-----------------Responsivity--------------*/
 
 /*Tablet*/
 @media screen and (max-width: 1024px) {
-  .container{
-    width: var(--container-width-med);
-  }
 
-  section {
-    margin-top: 6rem;
-  }
 }
 
 /*Mobile*/
 @media screen and (max-width: 600px) {
-  #home-title__hi {
-    font-size: 1rem;
-  }
-
-  #home-title__erica {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 1rem;
-  }
-  .container{
-    width: var(--container-width-small);
-  }
-
-  section {
-    margin-top: 2rem;
-  }
+  
 }
