@@ -12,20 +12,21 @@ html {
 }
 
 body {
-   
+  background-image: url("./images/pink\ and\ cream\ stripes.png");
 }
 
 :root{
   /*Custom variables*/
 
   /*Color pallete*/
-  --color-offwhite: rgb(254, 254, 253);
+  --color-cream: rgb(254, 254, 253);
   --color-lightpink: rgb(255, 244, 244);
   --color-pink: #FFCECE;
   --color-tan: rgb(240, 233, 224);
   --color-brown: rgb(223, 200, 182);
   --color-green: rgb(204, 213, 170);
   --color-darkgray: rgb(100, 95, 95);
+
 
   /*Container sizes*/
   --container-width-large: 75%;
