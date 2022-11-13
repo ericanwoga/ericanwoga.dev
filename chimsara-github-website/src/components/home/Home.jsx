@@ -1,8 +1,9 @@
 import React from 'react'
+import './home.css'
 
-const Home = () => {
+function Home() {
   return (
-    <div>We are in home</div>
+    <div>Home</div>
   )
 }
 
