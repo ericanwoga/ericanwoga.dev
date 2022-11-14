@@ -23,10 +23,12 @@ body {
   --color-cream: rgb(254, 254, 253);
   --color-lightpink: rgb(255, 244, 244);
   --color-pink: #FFCECE;
-  --color-tan: rgb(240, 233, 224);
+  --color-tan: rgb(240, 232, 227);
   --color-caramel: rgb(223, 200, 182);
   --color-choco: rgb(167, 141, 133);
   --color-green: rgb(204, 213, 170);
+
+  --alpha : 0.5;
 
 
   /*Container sizes*/
