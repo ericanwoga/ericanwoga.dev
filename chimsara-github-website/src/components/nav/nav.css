@@ -1,3 +1,5 @@
+/*DESKTOP */
+
 .navbar {
     background-color: var(--color-caramel);
     display: flex;
@@ -8,6 +10,10 @@
     padding: 1.2%;
 }
 
+.menu-icon-open , .menu-icon-closed {
+    display: none;
+}
+
 .navbar a {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
@@ -16,16 +22,71 @@
 }
 
 .navbar a:hover {
-    color: var(--color-lightpink);
-    transition: 0.15s ease-in;
+    color: rgba(255, 244, 244);
+    transition: 0.05s ease-in-out;
 }
 
 .navbar a:active {
-    /*background-color: rgba(255, 244, 244, 0.4);
-    border-radius: 10%;*/
-    color: var(--color-choco);
+    color: rgba(255, 244, 244, 0.5);
+
 }
 
-/*On mobile, the nav bar turns into an icon*/
+/*On TABLET , the nav bar turns into an icon*/
+@media screen and (max-width: 769px) {
+    .navbar a{
+        display: none;
+    }
+
+    .navbar-open {
+        background-color: var(--color-caramel);
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+
+        box-shadow: 0px 0px 2px 3px var(--color-choco);
+        padding: 1.2%;   
+    }
+
+    .navbar-open a {
+        display: none;
+        /*display: block;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        padding: 5%;
+
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.5rem;
+        color: var(--color-choco);
+        background-color: rgba(255, 244, 244, 0.5);*/
+    }
+
+    .menu-icon-closed {
+        display: inline-block;
+        height: 7%;
+        width: 7%;
+        color: var(--color-choco)
+    }
+
+    .menu-icon-open {
+        /*align-self: flex-end;*/
+        display: inline-block;
+        height: 10%;
+        width: 10%;
+        color: var(--color-choco);
+    }
+}
+
+/*On MOBILE, the nav bar turns into an icon*/
 @media screen and (max-width: 600px) {
+    .navbar a{
+        display: none;
+    }
+
+    .menu-icon-closed {
+        display: inline-block;
+        height: 10%;
+        width: 10%;
+        color: var(--color-choco)
+    }
 }
