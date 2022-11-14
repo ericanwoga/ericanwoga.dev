@@ -10,17 +10,29 @@ function Nav() {
   }
   
   return (
-  <nav className={clickedNav ? "navbar-open" : "navbar" } >
-    {clickedNav ? 
-    <IoClose className='menu-icon-open' onClick={handleClick}/> :
-    <IoMenu className='menu-icon-closed' onClick={handleClick}/>}
+    /*Navbar is the desktop default navbar. 
+    Navbar-open is for smaller devices*/
+    <>
+      <nav className="navbar">
+      {clickedNav ? 
+      <IoClose className='menu-icon-open' onClick={handleClick}/> :
+      <IoMenu className='menu-icon-closed' onClick={handleClick}/>}
 
-    <a href="#">home</a>
-    <a href="#about">about</a>
-    <a href="#work">portfolio</a>
-    <a href="#contact">contact</a>
+      <div className='navbar-links'>
+        <a href="#" className="navbar-item">home</a>
+        <a href="#about" className="navbar-item">about</a>
+        <a href="#work" className="navbar-item">portfolio</a>
+        <a href="#contact" className="navbar-item">contact</a>
+      </div>
+
+        <div className="menu-dropdown">
+          <span class="dropdown-item"></span>
+          <span class="dropdown-item"></span>
+          <span class="dropdown-item"></span>
+        </div>  
+    </nav>
     
-  </nav>
+    </>
   )
 }
 

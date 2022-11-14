@@ -1,92 +1,84 @@
 /*DESKTOP */
 
-.navbar {
+.navbar  {
     background-color: var(--color-caramel);
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+    
 
     box-shadow: 0px 0px 2px 3px var(--color-choco);
     padding: 1.2%;
+    position: fixed;
+    width: 100%;
 }
 
+/*Hide hamburger menu on desktop*/
 .menu-icon-open , .menu-icon-closed {
     display: none;
+    cursor: pointer;
 }
 
-.navbar a {
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5%;
+}
+.navbar-item {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
     color: var(--color-choco);
-    margin-left: 5%;
 }
 
-.navbar a:hover {
+.navbar-item:hover {
     color: rgba(255, 244, 244);
     transition: 0.05s ease-in-out;
 }
 
-.navbar a:active {
+.navbar-item:active {
     color: rgba(255, 244, 244, 0.5);
 
 }
 
-/*On TABLET , the nav bar turns into an icon*/
+
+
+/*========TABLET ==========*/
 @media screen and (max-width: 769px) {
-    .navbar a{
+    .navbar-item {
         display: none;
     }
 
-    .navbar-open {
-        background-color: var(--color-caramel);
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-
-        box-shadow: 0px 0px 2px 3px var(--color-choco);
-        padding: 1.2%;   
-    }
-
-    .navbar-open a {
-        display: none;
-        /*display: block;
-        text-align: center;
-        margin-top: 2%;
-        margin-bottom: 1%;
-        padding: 5%;
-
-        font-family: 'Outfit', sans-serif;
-        font-size: 1.5rem;
-        color: var(--color-choco);
-        background-color: rgba(255, 244, 244, 0.5);*/
-    }
 
     .menu-icon-closed {
         display: inline-block;
-        height: 7%;
-        width: 7%;
+        width: 3rem;
+        height: 3rem;
         color: var(--color-choco)
     }
 
     .menu-icon-open {
-        /*align-self: flex-end;*/
         display: inline-block;
-        height: 10%;
-        width: 10%;
+        width: 3rem;
+        height: 3rem;
         color: var(--color-choco);
     }
 }
 
-/*On MOBILE, the nav bar turns into an icon*/
+/*============ MOBILE===================*/
 @media screen and (max-width: 600px) {
-    .navbar a{
+    .navbar-item {
         display: none;
     }
 
     .menu-icon-closed {
         display: inline-block;
-        height: 10%;
-        width: 10%;
+        height: 2.5rem;
+        width: 2.5rem;
         color: var(--color-choco)
+    }
+
+    .menu-icon-open {
+        display: inline-block;
+        width: 2.5rem;
+        height: 2.5rem;
+        color: var(--color-choco);
     }
 }
