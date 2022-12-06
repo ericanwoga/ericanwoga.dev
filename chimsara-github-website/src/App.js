@@ -7,23 +7,23 @@ import Experience from './components/experience/Experience';
 import Work from './components/work/Work'
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import Title from './components/title/Title';
 
 
 
 function App() {
   return (
-    <div >
-      <Router>
-        <Nav/>
-        <Title/>
-        <Home/>
-        <About/>
-        <Work />
-        <Contact />
-        <Footer />
-      </Router>
-    </div>
+    <Router>
+      <div className='page-container'>
+          <Nav/>
+          <div className='content-container'>
+            <Home/>
+            <About/>
+            <Work />
+            <Contact />
+            <Footer />
+          </div>
+      </div>
+    </Router>
   );
 }
 

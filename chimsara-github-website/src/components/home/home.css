@@ -1,0 +1,19 @@
+
+#home {
+    border: 5px solid rgb(223, 192, 192);
+}
+
+
+h2 {
+    /*subtitle*/
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-caramel);
+    text-align: center;
+
+    word-spacing: 5px;
+}
+
+.deco-subtitle-text {
+    color: var(--color-darkpink);
+}
