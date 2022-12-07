@@ -16,9 +16,7 @@ function About() {
                 I am a senior <strong className="deco-about-text">Computer Science </strong>
                 student at the <strong className="deco-about-text">University of Maryland</strong>. 
                 I am looking forward to graduating in December 2023. 
-                Outside of school, I tutor elementary to high school students in mathmatics. ✏️ 
-                <br></br>
-                Other hobbies I enjoy are :
+                Outside of school, I tutor elementary to high school students in mathmatics. Other hobbies I enjoy are :
               </p><br></br>
               <p id="about-indent-list">
                 🎨 Traditional and digital illustrating <br></br>

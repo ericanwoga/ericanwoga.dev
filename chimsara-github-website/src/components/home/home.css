@@ -8,6 +8,7 @@
 }
 
 #bunny{
+    margin-top: 2%;
     width: 8%;
     height: 20%;
 }
@@ -31,7 +32,7 @@
 }
 #subtitle-text{
     /*subtitle*/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: var(--color-choco);
     text-align: center;
     word-spacing: 4px;
@@ -41,8 +42,8 @@
 
 #home h2 {
     font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 25px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .deco-subtitle-text {

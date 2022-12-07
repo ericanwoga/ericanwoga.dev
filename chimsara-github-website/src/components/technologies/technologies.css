@@ -22,12 +22,18 @@
     word-spacing: 0.2rem;
     font-weight: 400;
     font-size: 1rem;
-    text-align: left;
     width: 100%;
-    color: var(--color-choco);
-    font-family: 'Poppins', sans-serif;
 }
 
 #tech-list img {
     width: 5%;
+    border: 5px solid var(--color-lightestpink);
+    border-radius: 10%;
+    background-color: var(--color-lightestpink);
+    box-shadow: 0px 0px 3px 1px var(--color-caramel);
+}
+
+#tech-list img:hover {
+    translate: 0% -10%;
+    transition: ease-in-out 0.05s;
 }
