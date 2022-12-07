@@ -14,14 +14,14 @@ function App() {
   return (
     <Router>
       <div className='page-container'>
-          <Nav/>
-          <div className='content-container'>
+        <Nav/>          
+        <div className='content-container'>
             <Home/>
             <About/>
             <Work />
             <Contact />
             <Footer />
-          </div>
+        </div>
       </div>
     </Router>
   );

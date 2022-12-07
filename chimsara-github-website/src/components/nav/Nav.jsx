@@ -21,18 +21,17 @@ function Nav() {
     Navbar-open is for smaller devices*/
     <>
       <nav className="navbar">
-      <div className='navbar-links'>
-        <a href="#" className="navbar-item">home</a>
-        <a href="#about" className="navbar-item">about</a>
-        <a href="#work" className="navbar-item">portfolio</a>
-        <a href="#contact" className="navbar-item">contact</a>
-      </div>
+        <ul className='navbar-links'>
+          <li><a href="#" className="navbar-item">home</a></li>
+          <li><a href="#about" className="navbar-item">about</a></li>
+          <li><a href="#work" className="navbar-item">portfolio</a></li>
+          <li><a href="#contact" className="navbar-item">contact</a></li>
+        </ul>
 
-      {clickedNav ? 
-      <IoClose className='menu-icon-open' onClick={switchIcon}/> :
-      <IoMenu className='menu-icon-closed' onClick={switchIcon}/>}
-    </nav>
-    
+        {clickedNav ? 
+        <IoClose className='menu-icon-open' onClick={switchIcon}/> :
+        <IoMenu className='menu-icon-closed' onClick={switchIcon}/>}
+      </nav>
     </>
   )
 }
