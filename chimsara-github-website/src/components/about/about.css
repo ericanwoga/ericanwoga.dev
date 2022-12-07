@@ -20,6 +20,7 @@
 .img-and-paragraph{
     display: flex;
     flex-direction: row;
+    padding: 0% 10% 0% 10%;
 }
 
 .about-paragraph{
@@ -35,7 +36,7 @@
     height: 10%;
     width: 10%;
     opacity: 0.85;
-    margin: 0% 5% 0% 5%;
+    margin-right: 5%;
  }
 
 #about p {
@@ -44,8 +45,9 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: left;
+    line-height: 1.3rem;
 }
 
 #about-indent-list {
-    padding-left: 5%;
+    padding-left: 3%;
 }
