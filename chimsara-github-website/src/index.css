@@ -14,6 +14,7 @@ html {
 body {
   background-image: url("./images/pink\ and\ cream\ stripes.png");
   height: 100vh;
+  overflow: hidden;
 }
 
 :root{
@@ -30,6 +31,7 @@ body {
   --color-caramel: rgb(223, 200, 182);
   --color-choco: rgb(167, 141, 133);
   --color-green: rgb(204, 213, 170);
+  --color-blue: rgb(201,210,217);
 
   --alpha : 0.5;
 
@@ -45,6 +47,27 @@ body {
 }
 
 /*------------------General Styles----------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-caramel);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-caramel);
+}
+
 .page-container {
   /*Holds everything including nav bar and page content*/
   width: 100%;
