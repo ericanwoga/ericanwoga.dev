@@ -3,7 +3,9 @@ import './work.css'
 
 function Work() {
   return (
-    <div></div>
+    <section id="work">
+      
+    </section>
   )
 }
 

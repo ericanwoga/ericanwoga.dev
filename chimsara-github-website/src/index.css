@@ -21,7 +21,8 @@ body {
 
   /*Color pallete*/
   --color-cream: rgb(254, 254, 253);
-  --color-lightpink: rgb(255, 244, 244);
+  --color-lighterpink:rgb(252, 239, 239);
+  --color-lightestpink: rgb(255, 244, 244);
   --color-pink: #FFCECE;
   --color-darkpink: #fa9d9d;
   --color-citrus: rgb(251, 242, 233);
@@ -71,7 +72,7 @@ body {
 section {
   padding: 1.5rem;
   width: 100%;
-  height: 50%;
+  height: 100vh;
 }
 
 section p {

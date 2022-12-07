@@ -1,19 +1,48 @@
 
 #home {
-    border: 5px solid rgb(207, 60, 60);
+    border: 5px solid var(--color-lightpink);
+    margin: 20% 0% 20% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#bunny{
+    width: 8%;
+    height: 20%;
+}
 
-h2 {
+#home h1 {
+    /*Title */
+    font-family: 'Crafty Girls', sans-serif;
+    font-size: 6rem;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.3rem;
+    color: var(--color-choco);
+    text-align: center;
+    line-height: 8rem;
+    margin-bottom: 0px;
+}
+
+#subtitle-text{
     /*subtitle*/
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
     color: var(--color-caramel);
     text-align: center;
-
     word-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+#home h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 25px;
 }
 
 .deco-subtitle-text {
-    color: var(--color-darkpink);
+    /*text decoration*/
+    font-family: 'Crafty Girls', sans-serif;
+    letter-spacing: 0.4rem;
+    font-weight: 700;
+    color: var(--color-pink);
 }
