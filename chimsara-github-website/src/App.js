@@ -7,7 +7,7 @@ import Experience from './components/experience/Experience';
 import Porfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-
+import Technologies from './components/technologies/Technologies';
 
 
 function App() {

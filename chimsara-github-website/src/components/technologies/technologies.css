@@ -1,16 +1,15 @@
-#portfolio {
-    margin: 20% 0% 20% 0%;
-    padding: 5%;
+#technologies {
+    margin: 0%;
+    padding: 2%;
     border: 0.3rem double var(--color-pink);
     border-radius: 10px;
 }
 
-#portfolio h1{
+#technologies h1{
     font-family: 'Quicksand', sans-serif;
+    margin: 5% 0% 5% 0%;
     color: var(--color-choco);
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
     letter-spacing: 0.3rem;
-    text-decoration-line: solid;
 }
