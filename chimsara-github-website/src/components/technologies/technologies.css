@@ -1,8 +1,7 @@
 #technologies {
-    margin: 0%;
     padding: 2%;
-    border: 0.3rem double var(--color-pink);
     border-radius: 10px;
+    align-items: center;
 }
 
 #technologies h1{
@@ -12,4 +11,23 @@
     text-align: center;
     font-size: 2.5rem;
     letter-spacing: 0.3rem;
+}
+
+#tech-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+
+    word-spacing: 0.2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+    color: var(--color-choco);
+    font-family: 'Poppins', sans-serif;
+}
+
+#tech-list img {
+    width: 5%;
 }

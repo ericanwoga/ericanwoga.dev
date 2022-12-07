@@ -1,8 +1,5 @@
 #portfolio {
-    margin: 20% 0% 20% 0%;
     padding: 5%;
-    border: 0.3rem double var(--color-pink);
-    border-radius: 10px;
 }
 
 #portfolio h1{

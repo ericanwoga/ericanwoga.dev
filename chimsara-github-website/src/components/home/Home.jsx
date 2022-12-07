@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import laptop from '../../images/laptop.jpg'
 import bunny from '../../images/bunny.gif'
 import Title from '../title/Title'
 
@@ -15,7 +16,7 @@ function Home() {
             <span className='deco-subtitle-text'> design</span>
           </h2>
         </div>
-      </div>   
+      </div>
     </section>
   )
 }

@@ -13,7 +13,6 @@ html {
 
 body {
   background-image: url("./images/pink\ and\ cream\ stripes.png");
-  height: 100vh;
   overflow: hidden;
 }
 
@@ -24,7 +23,7 @@ body {
   --color-cream: rgb(254, 254, 253);
   --color-lighterpink:rgb(252, 239, 239);
   --color-lightestpink: rgb(255, 244, 244);
-  --color-pink: #FFCECE;
+  --color-pink: #ffcece;
   --color-darkpink: #fa9d9d;
   --color-citrus: rgb(251, 242, 233);
   --color-tan: rgb(240, 232, 227);
@@ -43,7 +42,6 @@ body {
 }
 
 #root {
-  height: 100vh;
 }
 
 /*------------------General Styles----------------*/
@@ -71,7 +69,7 @@ body {
 .page-container {
   /*Holds everything including nav bar and page content*/
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,13 +78,14 @@ body {
 .content-container{
   /*Holds everything under the nav bar*/
   width: var(--container-width-large);
-  height: 110%;
+  height: 100%;
   background-color: var(--color-cream);
   border: 15px solid var(--color-citrus);
   box-shadow: 0px 0px 10px 5px var(--color-caramel);
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -95,7 +94,8 @@ body {
 section {
   padding: 1.5rem;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 20%;
 }
 
 section p {

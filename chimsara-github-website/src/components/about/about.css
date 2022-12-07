@@ -1,7 +1,5 @@
 #about {
-    margin: 20% 0% 20% 0%;
     padding: 2%;
-    border: 0.3rem double var(--color-pink);
     border-radius: 10px;
 }
 
@@ -12,10 +10,14 @@
     font-size: 2.5rem;
     margin: 5% 0% 5% 0%;
     letter-spacing: 0.3rem;
-    text-decoration-line: solid;
 }
 
 .about-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-and-paragraph{
     display: flex;
     flex-direction: row;
 }
@@ -46,20 +48,4 @@
 
 #about-indent-list {
     padding-left: 5%;
-}
-
-#about-tech-list {
-    word-spacing: 0.2rem;
-    font-weight: 400;
-    font-size: 1rem;
-    text-align: left;
-
-    color: var(--color-choco);
-    font-family: 'Poppins', sans-serif;
-    gap: 10px;
-}
-
-#about li{
-    border: 0.1rem solid var(--color-caramel);
-    border-radius: 10%;
 }
