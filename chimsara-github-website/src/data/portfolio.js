@@ -16,7 +16,7 @@ export default [
         desc: 'I built my own portfolio website from scratch using Javascript and ReactJS. I first drew wireframes to get an idea for the layout, then brought it to life!',
         imgUrl: '',
         stack: ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
-        link: 'https://chimsara.github.io/chimsara',
+        link: 'https://chimsara.netlify.app/',
         repo: 'https://github.com/chimsara/chimsara.github.io',
     },
 ]
