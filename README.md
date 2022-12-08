@@ -1,1 +1,3 @@
-# chimsara.github.io
+# chimsara.dev
+
+## Welcome to my portfolio
