@@ -21,7 +21,7 @@ function About() {
               <p id="about-indent-list">
                 🎨 Traditional and digital illustrating <br></br>
                 📚 Reading novels and web-comics <br></br>
-                🎾 Playing tennis <br></br>
+                🎾 Playing tennisss <br></br>
               </p>
               <br></br>
               <p>
