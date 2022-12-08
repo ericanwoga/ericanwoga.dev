@@ -17,18 +17,18 @@ function About() {
                 student at the <strong className="deco-about-text">University of Maryland</strong>. 
                 I am looking forward to graduating in December 2023. 
                 Outside of school, I tutor elementary to high school students in mathmatics. Other hobbies I enjoy are :
-              </p><br></br>
-              <p id="about-indent-list">
+                <br />
+                <br />
                 🎨 Traditional and digital illustrating <br></br>
                 📚 Reading novels and web-comics <br></br>
-                🎾 Playing tennisss <br></br>
-              </p>
-              <br></br>
-              <p>
+                🎾 Playing tennis 
+                <br />
+                <br />
                 And of course - web development! I fell in love with web development
                 because it allows me to both express my artistic side, while also employing 
                 my techinical programming skills. It's the best of both worlds.
-                <br></br><br></br>
+                <br />
+                <br />
                 Currently, I am looking for internship opportunities within the spheres of
                 <strong className="deco-about-text"> UI Design</strong>, 
                 <strong className="deco-about-text"> Web Development</strong>,
