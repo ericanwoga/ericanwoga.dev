@@ -6,7 +6,7 @@ import pfp from '../../images/Erica_LinkedIn_pfp.png';
 function About() {
   return (
     <section id="about">
-      <h1>About Me</h1>
+      <h1 className='section-header'>About Me</h1>
       <div className='about-content'>
         <div className='img-and-paragraph'>
             <img src={pfp} alt="Erica"></img>

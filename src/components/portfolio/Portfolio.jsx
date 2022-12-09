@@ -6,7 +6,7 @@ import './portfolio.css'
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h1>Portfolio</h1>
+      <h1 className='section-header'>Portfolio</h1>
       <div className='portfolio-container'>
         {portfolioData.map(project =>(
           <PortfolioItem key={project.id}
