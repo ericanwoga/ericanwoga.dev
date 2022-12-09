@@ -1,19 +1,13 @@
 #technologies {
-    padding: 1.5rem;
-    border-radius: 10px;
     align-items: center;
 }
 
-#tech-stack{
-    font-family: 'Quicksand', sans-serif;
-    margin: 5% 0% 5% 0%;
-}
 
 .tech-list{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0px;
+    margin-bottom: 5%;
 }
 
 .tech-list-item{
@@ -21,14 +15,15 @@
     flex-direction: column;
 }
 
-#tech-list img {
+.tech-list img {
     border: 5px solid var(--color-lightestpink);
     border-radius: 10%;
+    width: 5vw;
     background-color: var(--color-lightestpink);
     box-shadow: 0px 0px 3px 1px var(--color-caramel);
 }
 
-#tech-list img:hover {
+.tech-list img:hover {
     translate: 0% -10%;
     transition: ease-in-out 0.05s;
 }

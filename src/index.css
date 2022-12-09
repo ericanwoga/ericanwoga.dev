@@ -33,12 +33,14 @@ body {
   --color-blue: rgb(201,210,217);
   --alpha : 0.5;
 
-  --header-sm: 14px; /*For text*/
-  --header-md: 16px; /*For h2*/
+  --header-sm: 2vw; /*For text*/
+  --header-md: 3vw; /*For h2*/
   --header-lg: 5vw; /*For h1 Section titles*/
   --header-size-xl: 10vw; /*For h1 Home title */
   --subheader: 2.8vw; /*For Home subtitle*/
   --header-space: 0.3rem;
+
+  --font-size: 1.2rem;
 
 
   /*Container sizes*/
@@ -94,9 +96,10 @@ body {
 }
 
 section {
+  border-radius: 10px;
   padding: 1.5rem;
   width: 100%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .section-header {
@@ -105,11 +108,16 @@ section {
   text-align: center;
   font-size: var(--header-lg);
   letter-spacing: var(--header-space);
+
+  margin: 5% 0% 5% 0%;
 }
 
 section p {
   color: var(--color-choco);
   font-family: 'Quicksand', sans-serif;
+  font-size: var(--font-size);
+  font-weight: 400;
+  text-align: left;
 }
 
 

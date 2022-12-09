@@ -18,6 +18,7 @@ function App() {
         <div className='content-container'>
             <Home/>
             <About/>
+            <Technologies />
             <Porfolio />
             <Contact />
             <Footer />

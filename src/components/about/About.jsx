@@ -37,7 +37,6 @@ function About() {
               </p>
             </div>
           </div>
-        <Technologies />
       </div> 
     </section>
   )
