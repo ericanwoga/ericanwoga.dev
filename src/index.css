@@ -83,6 +83,7 @@ body {
 
 .content-container{
   /*Holds everything under the nav bar*/
+  height: 100%;
   width: var(--container-width-large);
   background-color: var(--color-cream);
   border: 15px solid var(--color-citrus);
@@ -93,6 +94,7 @@ body {
   justify-content: space-between;
 
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
