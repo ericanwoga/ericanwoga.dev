@@ -73,7 +73,7 @@
 }
 
 /*Mobile*/
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
     .home-title{
         font-size: calc(var(--header-size-xl) + 8vw);
     }

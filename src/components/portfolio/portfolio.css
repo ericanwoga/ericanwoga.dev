@@ -19,7 +19,7 @@
 }
 
 
-/*Tablet */
+/*Tablet and mobile */
 @media screen and (max-width: 769px) {
     .ptf-item{
         flex-direction: column;
