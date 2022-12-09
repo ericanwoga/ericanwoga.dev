@@ -8,8 +8,8 @@ function Home() {
     <section id="home">
       <div id="entire-title">
         <h1>Hi! I'm Erica</h1>
-        <div id="subtitle-text">
-          <h2>An aspiring front-end 
+        <div id="subtitle">
+          <h2 className='subtitle-text'>An aspiring front-end 
             <span className='deco-subtitle-text'> developer </span>
             with love for user-friendly 
             <span className='deco-subtitle-text'> design</span>

@@ -31,8 +31,13 @@ body {
   --color-choco: rgb(167, 141, 133);
   --color-green: rgb(204, 213, 170);
   --color-blue: rgb(201,210,217);
-
   --alpha : 0.5;
+
+  --header-sm: 14px; /*For text*/
+  --header-md: 16px; /*For h2*/
+  --header-lg: 18px; /*For h1 Section titles*/
+  --header-size-xl: 10vw; /*For h1 Home title */
+  --subheader: 1.6vw;
 
 
   /*Container sizes*/
@@ -102,14 +107,26 @@ section p {
   color: var(--color-choco);
   font-family: 'Quicksand', sans-serif;
 }
+
+h1 {
+  font-size: var(--header-size-xl);
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /*-----------------Responsivity--------------*/
 
 /*Tablet*/
 @media screen and (max-width: 1024px) {
-
+  
 }
 
 /*Mobile*/
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 380px) {
+  h1 {
+    /*font-size: calc(var(--header-size-xl) - 0.8vw);*/
+    font-size: calc(var(--header-size-xl) + 8vw);
+  }
 }
