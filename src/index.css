@@ -37,16 +37,13 @@ body {
   --header-md: 16px; /*For h2*/
   --header-lg: 18px; /*For h1 Section titles*/
   --header-size-xl: 10vw; /*For h1 Home title */
-  --subheader: 1.6vw;
+  --subheader: 2.8vw;
 
 
   /*Container sizes*/
   --container-width-large: 80%;
   --container-width-med: 85%;
   --container-width-small: 90%;
-}
-
-#root {
 }
 
 /*------------------General Styles----------------*/
@@ -108,9 +105,6 @@ section p {
   font-family: 'Quicksand', sans-serif;
 }
 
-h1 {
-  font-size: var(--header-size-xl);
-}
 
 h2 {
   font-family: 'Quicksand', sans-serif;
@@ -125,8 +119,4 @@ h2 {
 
 /*Mobile*/
 @media screen and (max-width: 380px) {
-  h1 {
-    /*font-size: calc(var(--header-size-xl) - 0.8vw);*/
-    font-size: calc(var(--header-size-xl) + 8vw);
-  }
 }

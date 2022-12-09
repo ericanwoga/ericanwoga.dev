@@ -13,39 +13,28 @@
     height: 20%;
 }
 
-#entire-title{
+.entire-title{
     /*title and subtitile and image*/
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#home h1 {
+.home-title {
     /*Title */
+    font-size: var(--header-size-xl);
     font-family: 'Crafty Girls', sans-serif;
-    /*
-    font-size: 6rem;
-    word-spacing: 0rem;
-    letter-spacing: 0.3rem;
-    line-height: 7rem; */
     color: var(--color-choco);
     text-align: center;
     margin-bottom: 0px;
 }
 
-.subtitle-text{
+.home-subtitle{
     /*subtitle*/
     color: var(--color-choco);
-    font-size: 2.8vw;
+    font-size: var(--subheader);
     text-align: center;
-    font-weight: 600;
-}
-
-#home h2 {
-   /* font-size: 1.1rem;
-    font-weight: 600;
-    line-height: 20px; */
-    
+    font-weight: 500;
 }
 
 .deco-subtitle-text {
@@ -56,19 +45,28 @@
     color: var(--color-caramel);
 }
 
+/*Laptop*/
+@media screen and (min-width: 768px) {
+    .home-subtitle {
+        font-size:calc(var(--subheader) - 0.2vw);
+    }
+}
+
 /*Tablet*/
-@media screen and (max-width: 760px) {
-    .subtitle-text {
+@media screen and (max-width: 767px) {
+    .home-subtitle {
         text-align: center;
-        font-size: calc(var(--subheader) + 1vw);
-        font-weight: 600;
+        font-size: var(--subheader);
     }
 }
 
 /*Mobile*/
 @media screen and (max-width: 380px) {
-    .subtitle-text {
+    .home-title{
+        font-size: calc(var(--header-size-xl) + 8vw);
+    }
+    .home-subtitle {
         text-align: center;
-        font-size: calc(var(--subheader) + 3vw);
+        font-size: calc(var(--subheader) + 3.2vw);
     }
 }

@@ -6,10 +6,10 @@ import bunny from '../../images/bunny.gif'
 function Home() {
   return (
     <section id="home">
-      <div id="entire-title">
-        <h1>Hi! I'm Erica</h1>
-        <div id="subtitle">
-          <h2 className='subtitle-text'>An aspiring front-end 
+      <div className="entire-title">
+        <h1 className="home-title">Hi! I'm Erica</h1>
+        <div>
+          <h2 className='home-subtitle'>An aspiring front-end 
             <span className='deco-subtitle-text'> developer </span>
             with love for user-friendly 
             <span className='deco-subtitle-text'> design</span>
