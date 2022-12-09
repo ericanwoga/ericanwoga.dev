@@ -33,13 +33,14 @@ body {
   --color-blue: rgb(201,210,217);
   --alpha : 0.5;
 
-  --header-sm: 2vw; /*For text*/
-  --header-md: 3vw; /*For h2*/
+  --header-sm: 1vw; /*For text*/
+  --header-md: 2vw; /*For h2*/
   --header-lg: 5vw; /*For h1 Section titles*/
   --header-size-xl: 10vw; /*For h1 Home title */
   --subheader: 2.8vw; /*For Home subtitle*/
   --header-space: 0.3rem;
 
+  --font-size-sm: 1rem;
   --font-size: 1.2rem;
 
 
@@ -125,6 +126,19 @@ h2 {
   font-family: 'Quicksand', sans-serif;
 }
 
+h3{
+  color: var(--color-choco);
+  font-family: 'Quicksand', sans-serif;
+  font-size: var(--header-md);
+  margin-bottom: 2%;
+}
+
+a{
+  font-family: 'Quicksand', sans-serif;
+  color: var(--color-blue);
+  font-size: var(--font-size);
+  margin-right: 5%;
+}
 /*-----------------Responsivity--------------*/
 
 /*Tablet*/
