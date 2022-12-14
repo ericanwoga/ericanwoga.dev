@@ -100,7 +100,7 @@ body {
 
 section {
   border-radius: 10px;
-  padding: 1.5rem;
+  padding: 5vw;
   width: 100%;
   margin-bottom: 10%;
 }
@@ -118,7 +118,7 @@ section {
 section p {
   color: var(--color-choco);
   font-family: 'Quicksand', sans-serif;
-  font-size: var(--font-size);
+  font-size: 3vw;
   font-weight: 400;
   text-align: left;
 }
