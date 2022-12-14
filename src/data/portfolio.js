@@ -25,7 +25,7 @@ export default [
         id:'03',
         title: 'Study Abroad Website',
         desc: 'I built a fun little brochure website to learn more about Node.js, databases, and REST APIs.The website collects the user\'s data, then displays relevant historical information of the user\'s desired city.',
-        imgUrl: '',
+        imgUrl: 'https://github.com/chimsara/chimsara.dev/blob/new-layout-1/src/images/studyAbroad_socialPreview.png?raw=true',
         stack: ['Node.js', 'Express.js','JavaScript', 'CSS', 'MondgoDB', 'MediaWiki API'],
         link: 'https://study-abroad.onrender.com',
         repo: 'https://github.com/chimsara/study-abroad',
