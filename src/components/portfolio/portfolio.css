@@ -26,9 +26,10 @@
 }
 
 .ptf-tech-list{
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
+    flex-wrap: wrap
 }
 
 .ptf-tech-list-item{

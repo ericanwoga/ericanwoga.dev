@@ -1,0 +1,22 @@
+#contact {
+    align-items: center;
+}
+
+
+.contact-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.linkedin-icon,.github-icon, .email-icon {
+    width: 5vw;
+    color: var(--color-darkpink);
+}
+
+.linkedin-icon:hover,.github-icon:hover, .email-icon:hover {
+    color: var(--color-lightestpink);
+    transition: ease-in-out 0.05s;
+}
