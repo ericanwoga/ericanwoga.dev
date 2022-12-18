@@ -12,11 +12,11 @@
 }
 
 .linkedin-icon,.github-icon, .email-icon {
-    width: 5vw;
-    color: var(--color-darkpink);
+    font-size: 5vw;
+    color: var(--color-pink);
 }
 
 .linkedin-icon:hover,.github-icon:hover, .email-icon:hover {
-    color: var(--color-lightestpink);
+    color: var(--color-lighterpink);
     transition: ease-in-out 0.05s;
 }
