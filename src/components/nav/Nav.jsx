@@ -6,13 +6,16 @@ import {IoMenu, IoClose} from 'react-icons/io5'
 function Nav() {
   const [clickedNav, setClickedNav] = useState(false);
 
+  //changes the actual icon
   const switchIcon = () => {
     setClickedNav(!clickedNav);
     toggleNav();
   }
 
+  //changes the orientaion of the links
   const toggleNav = () => {
     const navbar = document.querySelector(".navbar-links");
+    //adds class name "active"
     navbar.classList.toggle("active");
   }
   
