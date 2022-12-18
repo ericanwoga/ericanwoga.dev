@@ -12,13 +12,13 @@ function PortfolioItem({title, desc, imgUrl, stack, link, repo}) {
                         <p className='ptf-desc'>{desc}</p>
                     </div>
                     <div className='ptf-tech-list'>
-                        <p>
-                            {stack.map(name => (
-                                <span className="ptf-tech-list-item" key={name}>
-                                    {name}
-                                </span>)
-                            )}
-                        </p>
+                        
+                        {stack.map(name => (
+                            <span className="ptf-tech-list-item" key={name}>
+                                {name}
+                            </span>)
+                        )}
+                        
                     </div>
                     <div className='ptf-links'>
                         <a href={link} target="_blank"  rel="noopener noreferrer">website</a>

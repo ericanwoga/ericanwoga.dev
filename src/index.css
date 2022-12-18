@@ -117,8 +117,6 @@ section {
 section p {
   color: var(--color-choco);
   font-family: 'Quicksand', sans-serif;
-  /*font-size: 3vw;
-  font-weight: 400;*/
   font-size: 2vw;
   font-weight: 500;
   text-align: left;
