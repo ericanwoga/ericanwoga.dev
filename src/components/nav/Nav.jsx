@@ -15,8 +15,13 @@ function Nav() {
   //changes the orientaion of the links
   const toggleNav = () => {
     const navbar = document.querySelector(".navbar-links");
-    //adds class name "active"
-    navbar.classList.toggle("active");
+    //adds class name "active" or removes it based on click
+    //navbar.classList.toggle("active");
+    if (navbar.className === "navbar-links") {
+      navbar.className += " active";
+    } else {
+      navbar.className = "navbar-links";
+    }
   }
   
   return (
