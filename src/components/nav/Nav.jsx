@@ -6,17 +6,16 @@ import {IoMenu, IoClose} from 'react-icons/io5'
 function Nav() {
   const [clickedNav, setClickedNav] = useState(false);
 
-  //changes the actual icon
+  //Changes the hamburger icon
   const switchIcon = () => {
     setClickedNav(!clickedNav);
     toggleNav();
   }
 
-  //changes the orientaion of the links
+  //Changes the style and orientaion of the links
   const toggleNav = () => {
     const navbar = document.querySelector(".navbar-links");
-    //adds class name "active" or removes it based on click
-    //navbar.classList.toggle("active");
+    //Adds class name "active" or removes it based on click
     if (navbar.className === "navbar-links") {
       navbar.className += " active";
     } else {
