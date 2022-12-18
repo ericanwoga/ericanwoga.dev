@@ -19,9 +19,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     gap: 20%;
-    margin-right: 1%;
     z-index: 2;
+    text-align: right;
+
 }
 .navbar-item {
     font-family: 'Outfit', sans-serif;
@@ -42,7 +44,8 @@
 /*Hide hamburger menu on desktop*/
 .menu-icon-open , .menu-icon-closed {
     display: none;
-    margin: 0px;
+    text-align: right;
+    font-size: 5vw;
 }
 
 .menu-dropdown{
@@ -56,20 +59,10 @@
 
 /*========TABLET ==========*/
 @media screen and (max-width: 769px) {
-    .menu-icon-closed {
+    .menu-icon-closed, .menu-icon-open {
         display: block;
-        margin-right: 10%;
-        margin: 0px;
-        width: 100%;
-        height: 100%;
         color: var(--color-choco);
-    }
-
-    .menu-icon-open {
-        display: block;
-        width: 100%;
         height: 100%;
-        color: var(--color-choco);
     }
 
     .navbar-links{
@@ -107,18 +100,9 @@
 
 /*============ MOBILE===================*/
 @media screen and (max-width: 600px) {
-    .menu-icon-closed {
-        margin-right: 10%;
-        margin: 0px;
-        width: 100%;
-        height: 100%;
+    .menu-icon-closed , .menu-icon-open{
         color: var(--color-choco);
-    }
-
-    .menu-icon-open {
-        width: 100%;
         height: 100%;
-        color: var(--color-choco);
     }
     
     .navbar-links{
