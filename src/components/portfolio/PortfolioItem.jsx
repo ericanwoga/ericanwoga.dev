@@ -1,7 +1,4 @@
 import React from 'react'
-import img01 from '../../images/hiragana_flashcards_preview.png';
-import img02 from  '../../images/chimsara.dev_socialPreview.png';
-import image from '../../images/bunny.gif'
 
 function PortfolioItem({title, desc, imgUrl, stack, link, repo}) {
     return ( 
@@ -24,8 +21,8 @@ function PortfolioItem({title, desc, imgUrl, stack, link, repo}) {
                         </p>
                     </div>
                     <div className='ptf-links'>
-                        <a href={link}>website</a>
-                        <a href={repo}>github</a>
+                        <a href={link} target="_blank"  rel="noopener noreferrer">website</a>
+                        <a href={repo} target="_blank"  rel="noopener noreferrer">github</a>
                     </div>
                 </div>
             </div>
