@@ -26,7 +26,7 @@
 .home-title {
     /*Title */
     font-size: var(--header-size-xl);
-    font-family: 'Crafty Girls', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: var(--color-choco);
     text-align: center;
     margin-bottom: 0px;
@@ -53,8 +53,7 @@
 
 .deco-subtitle-text {
     /*text decoration*/
-    font-family: 'Crafty Girls', sans-serif;
-    letter-spacing: 0.2rem;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: var(--color-caramel);
 }

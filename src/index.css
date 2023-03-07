@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Manjari:wght@100;400&family=Outfit:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Poppins:wght@400;700&family=Vollkorn&display=swap');
 
 * {
   box-sizing:border-box;
@@ -104,8 +104,9 @@ section {
   width: 100%;
 }
 
+/*Headers of each website section*/
 .section-header {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--color-choco);
   text-align: center;
   font-size: var(--header-lg);
@@ -114,28 +115,30 @@ section {
   margin: 5% 0% 5% 0%;
 }
 
+/*Paragraph text*/
 section p {
   color: var(--color-choco);
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Vollkorn', serif;
   font-size: 2vw;
   font-weight: 500;
   text-align: left;
 }
 
-
+/*Subtitle*/
 h2 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Vollkorn', serif;
 }
 
+/*Headers for projects*/
 h3{
-  color: var(--color-choco);
-  font-family: 'Quicksand', sans-serif;
+  color: var(--color-darkpink);
+  font-family: 'Poppins', sans-serif;
   font-size: var(--header-md);
   margin-bottom: 2%;
 }
-
+/*Links*/
 a{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--color-blue);
   font-size: var(--font-size);
   margin-right: 5%;

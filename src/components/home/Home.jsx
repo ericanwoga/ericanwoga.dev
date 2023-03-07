@@ -9,7 +9,7 @@ function Home() {
       <div className="entire-title">
         <h1 className="home-title">Hi! I'm Erica</h1>
         <div>
-          <h2 className='home-subtitle'>An aspiring front-end 
+          <h2 className='home-subtitle'>A front-end 
             <span className='deco-subtitle-text'> developer </span>
             with love for user-friendly 
             <span className='deco-subtitle-text'> design</span>
