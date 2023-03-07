@@ -30,7 +30,8 @@ body {
   --color-caramel: rgb(223, 200, 182);
   --color-choco: rgb(167, 141, 133);
   --color-green: rgb(204, 213, 170);
-  --color-blue: rgb(189, 200, 208);
+  --color-lime: #a8af77;
+  --color-blue: rgb(177, 197, 211);
   --alpha : 0.5;
 
   --header-sm: 1vw; /*For text*/
@@ -138,7 +139,7 @@ h3{
 }
 /*Links*/
 a{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Vollkorn', serif;
   color: var(--color-blue);
   font-size: var(--font-size);
   margin-right: 5%;
