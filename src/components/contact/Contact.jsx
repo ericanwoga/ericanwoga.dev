@@ -1,4 +1,4 @@
-iimport React from 'react'
+import React from 'react'
 import './contact.css'
 import {IoLogoLinkedin, IoMail} from 'react-icons/io5'
 import {GoMarkGithub} from 'react-icons/go'
