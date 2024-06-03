@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
   return (
       <div className="footer-container">
-        <p>Erica Nwoga © 2022 </p>
+        <p>Erica Nwoga © 2024 </p>
       </div>
   )
 }
